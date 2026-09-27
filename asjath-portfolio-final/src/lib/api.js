@@ -1,11 +1,12 @@
-const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/$/, '')
+const API_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
+
 
 /**
  * POST /api/contact
  * @param {{ name: string, email: string, subject: string, message: string, website?: string }} payload
  */
 export async function submitContact(payload) {
-  const res = await fetch(`${API_BASE}/api/contact`, {
+ const res = await fetch(`${API_BASE}/api/contact`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify(payload),
