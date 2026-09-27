@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow local project preview asset from being treated as a primary page if undesired
+# (remove this line if you want almas.html indexed)
+Disallow: /almas.html
+
+Sitemap: https://YOUR_DOMAIN/sitemap.xml

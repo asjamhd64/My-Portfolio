@@ -1,0 +1,10 @@
+{
+  "name": "Asjath Mubeen — Full-Stack Developer",
+  "short_name": "Asjath Mubeen",
+  "description": "Portfolio of Asjath Mubeen, IT undergraduate and aspiring full-stack developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "en"
+}

@@ -1,0 +1,7 @@
+PLACEHOLDER — profile photo not included yet.
+
+Add your photo as:
+  public/profile.jpg
+
+Recommended: portrait crop, ~800×1000px or similar.
+Until then the About section shows an "AM" initials fallback.

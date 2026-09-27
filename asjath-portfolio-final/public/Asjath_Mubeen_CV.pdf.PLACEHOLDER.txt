@@ -1,0 +1,8 @@
+PLACEHOLDER — CV file not included in this repository yet.
+
+Replace this note by adding your real résumé PDF at:
+
+  public/Asjath_Mubeen_CV.pdf
+
+The portfolio “Download CV” buttons point to that path.
+Do not invent or commit fabricated CV content.
